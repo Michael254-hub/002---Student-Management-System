@@ -1,0 +1,65 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main{
+    padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+#student-form {
+  display:flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#student-form button {
+    background-color:#289eec;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+#student-form button:hover {
+    background-color: #0a72c2;
+}
+
+#student-table table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+
+#student-table th,
+#student-table td {
+  border: 1px solid #ddd;
+  padding: 0.75em;
+  text-align: left;
+}
+
+#student-table th {
+  background-color: #2c3e50;
+  color: #fff;
+}

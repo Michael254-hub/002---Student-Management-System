@@ -7,10 +7,48 @@
     <title>Student Management System</title>
 </head>
 <body>
-    <header></header>
+
+    <header>
+        <h1>Student Management System</h1>
+    </header>
+
     <main>
-        <form action=""></form>
+        <section id="student-form">
+            <form action="" id="form">
+                <input type="text" id="name" placeholder="Full-name" required>
+                <input type="text" id="student-id" placeholder="Student ID" required>
+                <input type="text" id="course" placeholder="Course" required>
+                <input type="number" id="year" placeholder="Year of Study" required>
+                <button type="submit">Add Student</button>
+            </form>
+        </section>
+        
+        <section id="search-bar">
+            <input type="text" id="search" placeholder="Search by name or ID">
+        </section>
+
+        <section id="student-table">
+            <table>
+                <thead> <!--encapsulates table row elements-->
+                    <tr>
+                        <th>Name</th>
+                        <th>Student ID</th>
+                        <th>Course</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody id="student-table-body">
+                    <!-- Student entries will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+
     </main>
-    <footer></footer>
+
+    <footer>
+        <p>&copy; 2025 Michael Simiyu</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
